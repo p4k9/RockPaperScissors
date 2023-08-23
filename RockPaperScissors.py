@@ -75,5 +75,7 @@ while again == "Y":
         elif computerChoice == 2:
             print(scissors)
             print("You both chose Scissors, it's a tie!")
+    else:
+        print("You made an invalid choice.\n Type 0 for Rock, 1 for Paper, or 2 for Scissors")
     again = input("\nWould you like to play again? ( Y or N ) ").upper()
     print("")
